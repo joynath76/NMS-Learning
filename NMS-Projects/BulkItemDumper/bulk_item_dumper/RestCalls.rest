@@ -1,0 +1,19 @@
+GET http://localhost:8080/item
+
+###
+
+PUT http://localhost:8080/inventory/binmapping
+Content-Type: application/json
+
+ [
+{
+"itemId": "1010",
+"buId": "709",
+"binNumber": "01-01-1100"
+},
+{
+"itemId": "1011",
+"buId": "709",
+"binNumber": "5678/45"
+}
+]

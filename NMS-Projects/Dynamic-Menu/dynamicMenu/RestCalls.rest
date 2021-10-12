@@ -1,0 +1,18 @@
+GET http://localhost:8080/P_001/menu
+
+###
+
+POST http://localhost:8080/menu/
+Content-Type: application/json
+
+{
+    "name": "new menu",
+    "description": "new menu desc",
+    "projId": "P_001",
+    "route": "/new/mwnu",
+    "permission": "new_menu"
+}
+
+###
+
+DELETE http://localhost:8080/menu/M_0006
